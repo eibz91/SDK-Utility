@@ -1,0 +1,14 @@
+<BusinessObject Name="Incident">
+  <FieldList>
+    <Field Name="Call Source">Event</Field>
+    <Field Name="Service">Desktop Management</Field>
+    <Field Name="Category">Computer</Field>
+    <Field Name="SubCategory">Request New Computer</Field>
+    <Field Name="Customer ID">9349ef749d8a5426d9db2443b3b207287af8760ff5</Field>
+    <Field Name="Customer Type ID">93405caa107c376a2bd15c4c8885a900be316f3a72</Field>
+    <Field Name="CustomerDisplayName">Mrs. Alberta Albertson</Field>
+    <Field Name="Description">From SOAP</Field>
+    <Field Name="Short Description">From SOAP</Field>
+    <Field Name="Priority">3</Field>
+  </FieldList>
+</BusinessObject>

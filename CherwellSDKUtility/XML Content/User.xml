@@ -1,0 +1,9 @@
+﻿<BusinessObject Name="UserInfo">
+  <FieldList>
+    <Field Name="Full Name">John Smith</Field>
+    <Field Name="Department">Administration</Field>
+    <Field Name="Email">john.smith@rivertcorp.com</Field>
+    <Field Name="Phone">01234567890</Field>
+    <Field Name="Manager">Henri Bryce</Field>
+  </FieldList>
+</BusinessObject>

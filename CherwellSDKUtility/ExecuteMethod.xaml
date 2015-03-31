@@ -1,0 +1,28 @@
+﻿<Window x:Class="CherwellSDKUtility.ExecuteMethodContainer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Execute Method" Height="380" Width="800"
+        ResizeMode="NoResize">
+
+    <Grid Background="#FF323E48" Margin="0,0,0,0">
+
+        <Label Name="MethodLabel" Content="" HorizontalAlignment="Left" Margin="25,22,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
+
+        <Label Content="Arguments" HorizontalAlignment="Left" Margin="25,61,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Argument Value" HorizontalAlignment="Left" Margin="195,60,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Method Response" HorizontalAlignment="Left" Margin="515,60,0,0" VerticalAlignment="Top" Foreground="White"></Label>
+
+        <ListBox Name="ArgumentList" SelectionChanged="SetAndStore" HorizontalAlignment="Left" Height="200" Margin="25,87,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBox Name="ArgumentValue" AcceptsReturn="True" Focusable="True" HorizontalAlignment="Left" Height="200" Margin="195,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
+        <TextBox Name="MethodResponse" AcceptsReturn="True" Focusable="True" HorizontalAlignment="Left" Height="200" Margin="515,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+
+        <Button Name="MethodSummaryButton" Click="Summary_Click" Content="Method Summary" HorizontalAlignment="Left" Margin="655,60,0,0" VerticalAlignment="Top" Width="110" Height="22"/>
+        <Button Name="UserExampleButton" Click="Example_Click" Content="User" HorizontalAlignment="Left" Margin="442,60,0,0" VerticalAlignment="Top" Width="53" Height="22"/>
+        <Button Name="IncidentExampleButton" Click="Example_Click" Content="Incident" HorizontalAlignment="Left" Margin="384,60,0,0" VerticalAlignment="Top" Width="53" Height="22"/>
+        <Button Name="ExecuteButton" Click="Execute_Click" Content="Execute" HorizontalAlignment="Left" Margin="515,305,0,0" VerticalAlignment="Top" Width="75" Height="22"/>
+        <Button Name="ClearButton" Click="Clear_Click" Content="Clear" HorizontalAlignment="Left" Margin="603,305,0,0" VerticalAlignment="Top" Width="74" Height="22"/>
+        <Button Name="CloseButton" Click="Close_Click" Content="Close" HorizontalAlignment="Left" Margin="690,305,0, 0" VerticalAlignment="Top" Width="75" Height="22"/>
+        
+    </Grid>
+
+</Window>

@@ -10,4 +10,4 @@ the other to Cherwell's full 'Trebuchet' API.
 The Utility comes with several methods defined for both APIs, which can be run with help text through the UI.  The application however is designed so that you can simply add new methods into each of the connector classes, with summary and parameter help text, and they will automatically be added to the list of methods that can be run, once each API has been logged in.
 
 ## Developer Documentation
-[SDK Utility Wiki](https://community.cherwell.com/builders-network/w/wiki/23.sdk-utility-project)
+[SDK Utility Wiki](https://github.com/Cherwell-Software/SDK-Utility/wiki)
